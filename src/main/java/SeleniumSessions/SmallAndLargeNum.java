@@ -9,11 +9,10 @@ public class SmallAndLargeNum {
 		
 		//find the small and largest number in the above array
 		
-		
 		int largest = a[0];
 		int smallest = a[0];
 		
-		for(int i=1; i<a.length; i++) {
+		for(int i =1; i<a.length; i++) {
 			if(a[i]>largest) {
 				largest = a[i];
 			}
@@ -23,9 +22,11 @@ public class SmallAndLargeNum {
 				}
 			}
 		}
-		System.out.println("Smallest number is : " + smallest);
-		System.out.println("Largest number is : " + largest);
 		
+		System.out.println("Largest number is " + largest);
+		
+		System.out.println("Smallest number is " + smallest);
+
 
 	}
 

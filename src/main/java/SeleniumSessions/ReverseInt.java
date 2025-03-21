@@ -16,8 +16,8 @@ public class ReverseInt {
 		}	
 		System.out.println(rev);	
 		
-//		StringBuffer sr = new StringBuffer(String.valueOf(num));
-//		System.out.println(sr.reverse());
+		StringBuffer sr = new StringBuffer(String.valueOf(num));
+		System.out.println(sr.reverse());
 		
 		int number = 34567;
 		int rev1 = 0;
